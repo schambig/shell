@@ -1,2 +1,2 @@
-#!/bin/bash #Print the type of a file in a given path
+#!/bin/bash 
 file /tmp/iamafile

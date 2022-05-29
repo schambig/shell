@@ -1,2 +1,2 @@
-#!/bin/bash #Create a symbolic link in the current working directory
+#!/bin/bash 
 ln -s /bin/ls __ls__

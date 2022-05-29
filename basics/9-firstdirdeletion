@@ -1,2 +1,2 @@
-#!/bin/bash #Delete a directory from a given path
+#!/bin/bash 
 rmdir /tmp/my_first_directory

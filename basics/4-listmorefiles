@@ -1,2 +1,2 @@
-#!/bin/bash # Display current directory contents, including hidden files
+#!/bin/bash 
 ls -la

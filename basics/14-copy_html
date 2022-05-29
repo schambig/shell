@@ -1,2 +1,2 @@
-#!/bin/bash
+#!/bin/bash #Copy all the HTML files from the current directory to its parent
 cp -u  *.html ..

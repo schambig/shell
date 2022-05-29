@@ -1,2 +1,2 @@
-#!/bin/bash #List the content of three diferent paths
+#!/bin/bash 
 ls -la . .. /boot

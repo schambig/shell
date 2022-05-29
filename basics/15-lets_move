@@ -1,2 +1,2 @@
-#!/bin/bash #Moves files beginning with an uppercase letter to a given directory
+#!/bin/bash 
 mv [[:upper:]]* /tmp/u

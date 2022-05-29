@@ -1,2 +1,2 @@
-#!/bin/bash #Delete a file from a given path
+#!/bin/bash 
 rm /tmp/my_first_directory/betty 

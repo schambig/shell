@@ -1,2 +1,2 @@
-#!/bin/bash #Move a file to a given path
+#!/bin/bash 
 mv /tmp/betty /tmp/my_first_directory

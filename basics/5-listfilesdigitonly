@@ -1,2 +1,2 @@
-#!/bin/bash #Display current directory contents, including uid and gid
+#!/bin/bash 
 ls -na

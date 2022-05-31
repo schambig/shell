@@ -12,5 +12,5 @@ do
 		echo "Hi"
 	fi
 
-	let i+=1
+	((i++))
 done

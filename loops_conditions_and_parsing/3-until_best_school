@@ -2,4 +2,4 @@
 # Display Best School 10 times using until loop only
 
 i=0
-until [ $i -gt 10 ]; do echo "Best School"; ((i++)); done
+until [ $i -gt 9 ]; do echo "Best School"; ((i++)); done

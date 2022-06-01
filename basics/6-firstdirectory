@@ -1,2 +1,2 @@
-#!/bin/bash #Create a directory in a given path
+#!/bin/bash 
 mkdir /tmp/my_first_directory

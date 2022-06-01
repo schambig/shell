@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# This script will 
+# This script will displays pid, and process name of lines with bash word 
 
 pgrep -l bash

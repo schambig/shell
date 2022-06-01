@@ -7,21 +7,21 @@
 #+ Delete the file /var/run/myscript.pid and terminates itself when receiving
 #+ a SIGQUIT or SIGTERM signal
 
-rmfile() { 
+rmFile() { 
 	rm -rf /var/run/myscript.pid
 	exit
 }
 
-msgterm() {
+msgTerm() {
 	echo "I hate the kill command"
 }
 
-msgint() {
+msgInt() {
 	echo "Y U no love me?!"
 }
-trap "msgterm; rmfile" SIGTERM
-trap "msgint" SIGINT
-trap "rmfile" SIGQUIT
+trap "msgTerm; rmFile" SIGTERM
+trap "msgInt" SIGINT
+trap "rmFile" SIGQUIT
 
 echo $$ > /var/run/myscript.pid
 while :

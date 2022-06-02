@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# This script will manage /tmp/my_process file
+
+start() {
+	echo "manage_my_process started"
+	./manage_my_process &
+	touch /var/run/my_process.pid & echo $! > /var/run/my_process.pid
+}
+
+case $1 in
+	start) start;;
+esac

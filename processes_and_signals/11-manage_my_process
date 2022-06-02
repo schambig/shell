@@ -6,7 +6,7 @@ on() {
 }
 
 off() {
-	sudo pkill -f "./manage_my_process" & rm -rf /var/run/my_process.pid
+	sudo pkill -f "./manage_my_process" & rm /var/run/my_process.pid
 }
 
 case $1 in

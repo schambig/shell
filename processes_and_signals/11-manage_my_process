@@ -1,15 +1,17 @@
 #!/usr/bin/env bash
 # This script will manage /tmp/my_process file
 
-start() {
+on() {
 	./manage_my_process & echo $! > /var/run/my_process.pid
 }
 
-stop() {
-	sudo kill $(pgrep -f manage) & rm -rf /var/run/my_process.pid
+off() {
+	sudo pkill -f "./manage_my_process" & rm -rf /var/run/my_process.pid
 }
 
 case $1 in
-	start) start; echo "manage_my_process started";;
-	stop) stop; echo "manage_my_process stopped";;
+	start) on; echo "manage_my_process started";;
+	stop) off; echo "manage_my_process stopped";;
+	restart) off; on; echo "manage_my_process restarted";;
+	*) echo "Usage: manage_my_process {start|stop|restart}";;
 esac

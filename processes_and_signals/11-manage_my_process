@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script will manage /tmp/my_process file
+# This script will manage manage_my_process file
 
 on() {
 	./manage_my_process & echo $! > /var/run/my_process.pid

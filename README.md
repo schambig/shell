@@ -29,7 +29,7 @@ Please follow the next directory order:
 | Project Directory | Summary |
 | --- | --- |
 | <pre>[basics](basics)</pre><!--@schambig--> | In this project we will learn the basic concepts of the Shell, Also we will learn how to navigate in the Shell to look around and how to manipulate files. |
-| <pre>[permissions](permissions)</pre><!--@schambig--> |  |
+| <pre>[permissions](permissions)</pre><!--@schambig--> | On a Linux system, each file and directory is assigned access rights for the owner of the file, the members of a group of related users, and everybody else. In this project we will learn all the nuances about that. |
 | <pre>[io_redirections_and_filters](io_redirections_and_filters)</pre><!--@schambig--> |  |
 | <pre>[init_files_variables_and_expansions](init_files_variables_and_expansions)</pre><!--@schambig--> |  |
 | <pre>[loops_conditions_and_parsing](loops_conditions_and_parsing)</pre><!--@schambig--> |  |

@@ -28,7 +28,12 @@ Please follow the next directory order:
 
 | Project Directory | Summary |
 | --- | --- |
-| <pre>[]()</pre><!--@schambig--> |  |
+| <pre>[basics](basics)</pre><!--@schambig--> |  |
+| <pre>[permissions](permissions)</pre><!--@schambig--> |  |
+| <pre>[io_redirections_and_filters](io_redirections_and_filters)</pre><!--@schambig--> |  |
+| <pre>[init_files_variables_and_expansions](init_files_variables_and_expansions)</pre><!--@schambig--> |  |
+| <pre>[loops_conditions_and_parsing](loops_conditions_and_parsing)</pre><!--@schambig--> |  |
+| <pre>[processes_and_signals](processes_and_signals)</pre><!--@schambig--> |  |
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=60&section=footer"/>

@@ -32,8 +32,8 @@ Please follow the next directory order:
 | <pre>[permissions](permissions)</pre><!--@schambig--> | On a Linux system, each file and directory is assigned access rights for the owner of the file, the members of a group of related users, and everybody else. In this project we will learn all the nuances about that. |
 | <pre>[io_redirections_and_filters](io_redirections_and_filters)</pre><!--@schambig--> | In this project, we will explore a powerful feature used by command line programs called input/output redirection. Also we will explore one kind of program frequently used in pipelines that is called a filter. Filters take standard input and perform an operation upon it and send the results to standard output.  |
 | <pre>[init_files_variables_and_expansions](init_files_variables_and_expansions)</pre><!--@schambig--> | In this project we will learn what is the difference between a local and a global variable, how to create, update and delete them, also we will learn about what are expansions. |
-| <pre>[loops_conditions_and_parsing](loops_conditions_and_parsing)</pre><!--@schambig--> | We will learn the difference between `#!/usr/bin/env bash` and `#!/bin/bash`, how to use `while`, `until` and `for` loops, how to use `if`, `else`, `elif` and `case` condition statements and more. |
-| <pre>[processes_and_signals](processes_and_signals)</pre><!--@schambig--> | Here we will learn what is a `PID`, what is a process, how to find and kill signals, also we will learn about the two signals that cannot be ignored. |
+| <pre>[loops_conditions_and_parsing](loops_conditions_and_parsing)</pre><!--@schambig--> | In this project we will learn the difference between `#!/usr/bin/env bash` and `#!/bin/bash`, how to use `while`, `until` and `for` loops, how to use `if`, `else`, `elif` and `case` condition statements and more. |
+| <pre>[processes_and_signals](processes_and_signals)</pre><!--@schambig--> |  |
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=60&section=footer"/>
